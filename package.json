@@ -1,0 +1,23 @@
+{
+    "author": "Mihai Ene <dkrandu@yahoo.com>",
+        "name": "srcds-admin-panel-api",
+        "description": "A node.js API for srcds-admin-panel",
+        "keywords": ["valve", "srcds", "hlds", "rcon", "half", "life", "counter", "strike"],
+        "version": "0.1.0",
+        "homepage": "https://github.com/randunel/node-srcds-admin-panel",
+        "repository": {
+            "type": "git",
+            "url": "https://github.com/randunel/node-srcds-admin-panel"
+        },
+        "main": "./index",
+        "engines": {
+            "node": "*"
+        },
+        "dependencies": {
+            "srcds-rcon": "1.1.x",
+            "srcds-log": "1.0.x",
+            "express": "3.4.x"
+        },
+        "devDependencies": {},
+        "optionalDependencies": {}
+}
